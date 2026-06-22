@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "Despre",
+    "impact": "Impact",
+    "projects": "Proiecte",
+    "news": "Știri",
+    "workWithUs": "Colaborăm",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroTitle": "Împuternicirea antreprenorilor romi din Europa",
+    "heroSubtitle": "REDI este un constructor de ecosistem care conectează antreprenorii romi cu mediul de afaceri mainstream.",
+    "exploreImpact": "Explorează impactul nostru",
+    "supportRedi": "Susține REDI",
+    "ourImpact": "Impactul nostru",
+    "activeProjects": "Proiecte active",
+    "viewAllProjects": "Vezi toate proiectele",
+    "latestStories": "Ultimele povești",
+    "allNews": "Toate știrile",
+    "whereWeWork": "Unde activăm",
+    "whereWeWorkDesc": "REDI operează în Europa de Est și Balcani, sprijinind antreprenorii romi în 7 țări."
+  },
+  "about": {
+    "title": "Despre REDI",
+    "missionTitle": "Misiunea noastră",
+    "missionText": "Inițiativa de Dezvoltare a Antreprenoriatului Rom (REDI) este un constructor de ecosistem care dezvoltă instrumente pentru creșterea puterii economice a comunităților vulnerabile.",
+    "visionTitle": "Viziunea noastră",
+    "visionText": "O Europă în care antreprenorii romi sunt recunoscuți ca agenți ai schimbării economice, contribuind la dezvoltarea comunității.",
+    "teamTitle": "Echipa noastră",
+    "boardTitle": "Membrii consiliului"
+  },
+  "impact": {
+    "title": "Impactul nostru",
+    "subtitle": "Patru piloni care promovează împuternicirea economică a comunităților roma din Europa."
+  },
+  "projects": {
+    "title": "Proiecte",
+    "subtitle": "Inițiative finanțate de UE și parteneriate pentru antreprenoriatul rom.",
+    "active": "Active",
+    "completed": "Finalizate",
+    "all": "Toate",
+    "learnMore": "Află mai mult"
+  },
+  "news": {
+    "title": "Știri și povești",
+    "subtitle": "Actualizări de la REDI din Europa.",
+    "readMore": "Citește mai mult"
+  },
+  "workWithUs": {
+    "title": "Colaborăm",
+    "subtitle": "Alătură-te misiunii noastre de a împuternici antreprenorii romi.",
+    "tenders": "Licitații deschise",
+    "volunteer": "Voluntariat",
+    "donate": "Susține REDI",
+    "tendersDesc": "Oportunități actuale de achiziții și apeluri de propuneri.",
+    "volunteerDesc": "Contribuie cu abilitățile tale pentru a sprijini antreprenorii romi.",
+    "donateDesc": "Ajută-ne să extindem accesul la finanțare și formare."
+  },
+  "contact": {
+    "title": "Contactează-ne",
+    "subtitle": "Ia legătura cu echipa REDI.",
+    "name": "Nume",
+    "email": "Email",
+    "message": "Mesaj",
+    "send": "Trimite mesajul",
+    "success": "Mulțumim! Mesajul a fost trimis.",
+    "error": "Ceva nu a mers bine. Încearcă din nou."
+  },
+  "footer": {
+    "rights": "Toate drepturile rezervate.",
+    "privacy": "Politica de confidențialitate"
+  },
+  "common": {
+    "backTo": "Înapoi la"
+  }
+}

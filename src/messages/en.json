@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "About",
+    "impact": "Impact",
+    "projects": "Projects",
+    "news": "News",
+    "workWithUs": "Work With Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroTitle": "Empowering Roma entrepreneurs across Europe",
+    "heroSubtitle": "REDI is an ecosystem builder connecting Roma entrepreneurs with the mainstream business environment.",
+    "exploreImpact": "Explore Our Impact",
+    "supportRedi": "Support REDI",
+    "ourImpact": "Our Impact",
+    "activeProjects": "Active Projects",
+    "viewAllProjects": "View all projects",
+    "latestStories": "Latest Stories",
+    "allNews": "All news",
+    "whereWeWork": "Where We Work",
+    "whereWeWorkDesc": "REDI operates across Eastern Europe and the Balkans, supporting Roma entrepreneurs in 7 countries."
+  },
+  "about": {
+    "title": "About REDI",
+    "missionTitle": "Our Mission",
+    "missionText": "Roma Entrepreneurship Development Initiative is an ecosystem builder focusing on developing tools to increase vulnerable communities' economic empowerment. We initially built a non-profit in Romania (2016) and set up a financial institution in Luxembourg.",
+    "visionTitle": "Our Vision",
+    "visionText": "A Europe where Roma entrepreneurs are recognized as agents of economic change, contributing to community development and fighting stereotypes through successful businesses.",
+    "teamTitle": "Our Team",
+    "boardTitle": "Board Members"
+  },
+  "impact": {
+    "title": "Our Impact",
+    "subtitle": "Four pillars driving economic empowerment for Roma communities across Europe."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "EU-funded initiatives and partnerships advancing Roma entrepreneurship.",
+    "active": "Active",
+    "completed": "Completed",
+    "all": "All",
+    "learnMore": "Learn more"
+  },
+  "news": {
+    "title": "News & Stories",
+    "subtitle": "Updates from REDI across Europe.",
+    "readMore": "Read more"
+  },
+  "workWithUs": {
+    "title": "Work With Us",
+    "subtitle": "Join our mission to empower Roma entrepreneurs.",
+    "tenders": "Open Tenders",
+    "volunteer": "Volunteer",
+    "donate": "Support REDI",
+    "tendersDesc": "Current procurement opportunities and calls for proposals.",
+    "volunteerDesc": "Contribute your skills to support Roma entrepreneurs across Europe.",
+    "donateDesc": "Help us expand access to finance and training for Roma communities."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with the REDI team.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "success": "Thank you! Your message has been sent.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy"
+  },
+  "common": {
+    "backTo": "Back to"
+  }
+}

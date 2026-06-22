@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# REDI NGO Website
 
-## Getting Started
+Modern redesign of [redi-ngo.eu](https://redi-ngo.eu) — built with Next.js, Tailwind CSS, and Supabase.
 
-First, run the development server:
+## Live
+
+| Environment | URL |
+|-------------|-----|
+| **Production** | Deploy via Vercel |
+| **Mirror (archive)** | https://redi-ngo-site.vercel.app |
+
+## Stack
+
+- **Next.js 16** (App Router) + TypeScript
+- **Tailwind CSS v4** — custom design system (green/gold palette)
+- **next-intl** — English + Romanian
+- **Supabase** — database backend (news, tenders, contact)
+- **Resend** — contact form emails
+- **Vercel** — hosting
+
+## Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Homepage with hero, stats, impact, projects, news |
+| `/about` | Mission, vision, team, board |
+| `/impact` | REDI Fund, Recycling, Network, Business Club, Digital Boost |
+| `/projects` | EU-funded and partner projects |
+| `/news` | News articles and stories |
+| `/work-with-us` | Tenders, volunteer, donate |
+| `/contact` | Contact form |
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run extract   # Re-extract content from mirror
+npm run dev       # http://localhost:3000
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Content
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Content is extracted from the static mirror at `../redi-ngo-site/` via:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run extract
+```
 
-## Learn More
+Output goes to `src/content/extracted/`. Curated content lives in `src/content/`.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Connected to Supabase project `redi-ngo-site` and deployed on Vercel. Set env vars from `.env.example`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Redirects
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Old WordPress URLs redirect to new routes (see `next.config.ts`).
