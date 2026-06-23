@@ -73,11 +73,7 @@ export function Hero({
         </div>
 
         <div className="mt-12 lg:mt-16">
-          <EntrepreneurCollage
-            variant="banner"
-            imageSrc={imageSrc ?? undefined}
-            priority
-          />
+          <EntrepreneurCollage variant="banner" priority />
         </div>
       </div>
 

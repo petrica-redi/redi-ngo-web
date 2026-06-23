@@ -346,22 +346,6 @@ h1, h2, h3, h4 {
   }
 }
 
-/* ── Entrepreneur collage story panel ── */
-
-.collage-backdrop-enter {
-  animation: collage-fade-in 0.2s ease-out forwards;
-}
-
-.collage-panel-enter {
-  animation: collage-slide-up 0.3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-@media (min-width: 640px) {
-  .collage-panel-enter {
-    animation-name: collage-slide-right;
-  }
-}
-
 @keyframes collage-fade-in {
   from {
     opacity: 0;
@@ -398,4 +382,14 @@ h1, h2, h3, h4 {
   .collage-panel-enter {
     animation: none !important;
   }
+}
+
+/* Live editor */
+.live-editor-block {
+  position: relative;
+}
+
+.live-editor-block:hover {
+  outline: 2px dashed rgba(251, 191, 36, 0.6);
+  outline-offset: 4px;
 }
